@@ -8,19 +8,22 @@
 
 body, .fas{
     color: #fff;
+    background-color: #000;
+}
+
+.display-flex{
+    display: flex;
 }
 
 /*********HEADER***********/
 
 header{
 /*     align-self: flex-start; */
-    background-color: #000;
     height: 100px;
     width: 100%;
 }
 
 header nav{
-    display: flex;
     justify-content: flex-end;
 }
 
@@ -35,14 +38,29 @@ header nav div{
 
 main{
     margin: 0 95px;
-    display: flex;
+
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .zoom-member{
+    background-image: url( https://picsum.photos/246/146);
+    margin: 5px;
+    width: 246px;
+    height: 146px;
 
-    padding: 5px;
+    align-items: flex-end;
+}
+
+.member-name{
+    background-color:rgba(0,0,0,0.6);
+ 
 }
 
 /*********FOOTER***********/
 
+footer{
+    height: 110px;
+    background-color: #222222;
+}
