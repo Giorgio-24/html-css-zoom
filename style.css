@@ -1,0 +1,48 @@
+/*********UTILITIES***********/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, .fas{
+    color: #fff;
+}
+
+/*********HEADER***********/
+
+header{
+/*     align-self: flex-start; */
+    background-color: #000;
+    height: 100px;
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav div{
+    background-color: #4a4a4a;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*********MAIN***********/
+
+main{
+    margin: 0 95px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.zoom-member{
+
+    padding: 5px;
+}
+
+/*********FOOTER***********/
+
