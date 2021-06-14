@@ -6,20 +6,36 @@
     box-sizing: border-box;
 }
 
-body, .fas{
-    color: #fff;
-    background-color: #000;
+.color-red{
+    color: #ff0000;
+}
+
+.color-green{
+    color: #00ff00;
+}
+
+.bg-color-grey{
+    background-color: #4a4a4a;
+}
+
+.fas{
+    padding: 5px;
 }
 
 .display-flex{
     display: flex;
 }
 
+body{
+    color: #fff;
+    background-color: #000;
+}
+
 /*********HEADER***********/
 
 header{
 /*     align-self: flex-start; */
-    height: 100px;
+    height: 60px;
     width: 100%;
 }
 
@@ -28,7 +44,6 @@ header nav{
 }
 
 header nav div{
-    background-color: #4a4a4a;
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
@@ -37,8 +52,7 @@ header nav div{
 /*********MAIN***********/
 
 main{
-    margin: 0 95px;
-
+    margin: 40px 95px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -54,7 +68,7 @@ main{
 }
 
 .member-name{
-    background-color:rgba(0,0,0,0.6);
+    background-color:rgba(0,0,0,0.5);
  
 }
 
@@ -63,4 +77,18 @@ main{
 footer{
     height: 110px;
     background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .icon-box{
+    margin: 0 15px;
+}
+
+.icon-box i.fas:nth-of-type(2){
+    padding: 0 20px;
+}
+
+footer nav:nth-child(3) div{
+    padding: 46px 30px;
 }
