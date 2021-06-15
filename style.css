@@ -31,12 +31,13 @@ body{
     background-color: #000;
 }
 
+
 /*********HEADER***********/
 
 header{
-/*     align-self: flex-start; */
     height: 60px;
     width: 100%;
+    overflow-y: hidden;
 }
 
 header nav{
@@ -52,10 +53,12 @@ header nav div{
 /*********MAIN***********/
 
 main{
+    height: calc(100vh - 250px);
     margin: 40px 95px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    overflow-y: auto;
 }
 
 .zoom-member{
@@ -79,11 +82,17 @@ footer{
     background-color: #222222;
     justify-content: space-between;
     align-items: center;
+    overflow-y: hidden;
 }
 
 footer .icon-box{
     margin: 0 15px;
+    text-align: center;
 }
+
+/* footer .icon-box div{
+    text-align: center;
+} */
 
 .icon-box i.fas:nth-of-type(2){
     padding: 0 20px;
